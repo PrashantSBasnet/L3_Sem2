@@ -1,0 +1,13 @@
+1. Download python  https://www.python.org/
+2. Check "Add Python to PATH" during installation
+3. Go to cmd/terminal and check the version of python isntalled using command   python --version
+4. In order to install Jupyter Notebook, use the command pip install jupyter
+
+
+Latest version of python (2/3/2024): 3.12.1
+
+Using Jupyter Notebook
+1. Create a folder
+2. Open terminal in the above folder
+3. In cmd, use command: jupyter notebook  
+4. New -> Python 3(ipykernel)
