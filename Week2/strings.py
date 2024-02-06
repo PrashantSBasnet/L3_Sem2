@@ -16,7 +16,7 @@ print (str1[:3]) #staring from the start
 print (str1[1:]) #all the way to the end
 
 str2 = "Hello"
-print (str2[-4:-2])   #gives substring from the 3rd character from the end and ending at the 2nd character from the end (excluding character at the end index)
+print (str2[-4:-2])   #gives substring from the 4th character from the end and ending at the 2nd character from the end (excluding character at the end index)
 
 #modify string
 print (str2.upper())  #Uppercase
