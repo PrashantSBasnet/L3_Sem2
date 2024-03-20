@@ -1,7 +1,7 @@
-Basic CRUD: 
+Basic CRUD (create/read/update/delete): 
 We had done these in File Handling already. https://github.com/PrashantSBasnet/L3_Sem2/blob/master/Week5/FileHandling.ipynb
 It was done in snippets. 
 
 Now, we are trying to integrate all the operations together. 
 
-This will be helpful to address Assignment 3 ( Qno: 7 & 8) and will also the group portfolio demands similar operations. (i.e. CRUD)
+This will be helpful to address Assignment 3 ( Qno: 7 & 8). Also, the group portfolio demands similar operations. (i.e. CRUD)
