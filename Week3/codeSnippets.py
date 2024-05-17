@@ -99,6 +99,19 @@ fun1()
 
 
 ----------------------------------------
+# the global keyword is used to modify a variable outside of the current scope, typically referring to a variable defined at the top-level of a script or module
+#  useful when you need to access and change a global variable within a function or other local scope
+
+x = 10  # Global variable
+
+def modify_global():
+    global x
+    x = 20  # Modifying the global variable
+
+print("Before modification, x is:", x)
+modify_global()
+print("After modification, x is:", x)
+-------------------------------------------
 
 def fun1():
     x=10
