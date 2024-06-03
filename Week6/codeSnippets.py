@@ -94,5 +94,23 @@ class Student:
 fresher = Student('Sameer', 19)
 print(fresher.getName())  # Accessing private variable through a method
 
+--------------------------------------------------------------
+class Shape:
+    shape = 'Rectangle'
+    area = 10
+
+    def __init__(self, shape, area):
+        self.shape=shape
+        self.area = area
+
+    def giveDetails(self):
+        print (self.shape, self.area)
+
+obj1 = Shape('Circle', 23)
+obj1.giveDetails()
+
+obj2 = Shape('Square', 240)
+obj2.giveDetails()
+
    
    
