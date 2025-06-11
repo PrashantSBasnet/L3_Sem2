@@ -1,3 +1,36 @@
+'''inner class'''
+
+class Student:
+    def __init__(self, id, name, level):
+        self.id = id
+        self.name = name
+        self.level = level
+
+    def show(self):
+        print (self.id, self.name,self.level)
+
+
+    class Address:
+        def __init__(self):
+            self.country = 'Nepal'
+            self.city = 'Kathmandu'
+        def show(self):
+            print ('i am from inner class')
+    
+    innerClass = Address()
+    innerClass.show()
+
+student= Student(3, 'Grishma',3)
+
+'''creating object of inner class outside the outer class provided you use outer class name to call it'''
+
+innerAddress= Student.Address()  
+innerAddress.show()
+
+
+
+
+
 '''example1'''
 class FirstClass: 
     
